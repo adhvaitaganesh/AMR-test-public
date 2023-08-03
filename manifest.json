@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "OpenSea Highlighter",
+  "version": "1.0",
+  "description": "Highlight 20% of NFT collections on OpenSea",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://opensea.io/*"],
+      "js": ["content_script.js"]
+    }
+  ]
+}
