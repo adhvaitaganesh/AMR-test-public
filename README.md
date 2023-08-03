@@ -5,7 +5,8 @@ AMR public repository
 
 1. sample-code for a chrome extension to function on openSea
 
-TO-DO
+TO-DO:
+
 2. Web extension sample code for Chrome to highlight random 20% of the collectibles on openSea. 'The meta-sign should be the highlight'
     - Create a template for future iterations
     
