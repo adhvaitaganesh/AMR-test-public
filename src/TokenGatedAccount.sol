@@ -27,7 +27,7 @@ contract TokenGatedAccount is Account {
 
     function isValidSigner(
         address _signer
-    ) public view override returns (bool) {
+    ) public view returns (bool) {
         return (owner() == _signer);
     }
 
